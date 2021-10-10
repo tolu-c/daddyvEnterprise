@@ -1,0 +1,18 @@
+SITEMAP
+
+domain => www.daddyventerprise.com
+
+* domain/user-register/
+* domain/user-login/
+* domain/user-profile/
+* domain/user-transactions/detail/
+* domain/settings/edit/
+* domain/data/carrier/
+* domain/data/{carrier-name}/bundle
+* domain/confirm-order/
+* domain/order-success/
+* domain/order-failed/
+* domain/billing-info/
+* domain/payment/
+* domain/page-not-found/
+* domain/work-in-progress/
