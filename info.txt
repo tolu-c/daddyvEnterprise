@@ -8,6 +8,8 @@ domain => www.daddyventerprise.com
 * domain/user-profile/
 * domain/user-transactions/detail/
 * domain/settings/edit/
+* domain/change-password/
+* domain/reset-password/
 * domain/data/carrier/
 * domain/data/{carrier-name}/bundle
 * domain/confirm-order/
