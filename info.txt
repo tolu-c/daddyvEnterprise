@@ -3,6 +3,7 @@ SITEMAP
 domain => www.daddyventerprise.com
 
 * domain/user-register/
+* domain/confirm-account/
 * domain/user-login/
 * domain/user-profile/
 * domain/user-transactions/detail/
