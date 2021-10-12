@@ -17,7 +17,6 @@ domain => www.daddyventerprise.com
 * domain/payment/
 * domain/page-not-found/
 * domain/work-in-progress/
-* domain/work-in-progress/
 
 FONTS
 * Fira code condensed
