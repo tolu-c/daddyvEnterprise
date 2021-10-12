@@ -19,3 +19,6 @@ domain => www.daddyventerprise.com
 * domain/payment/
 * domain/page-not-found/
 * domain/work-in-progress/
+* domain/font-Fira sans/
+* domain/font-Raleway/
+* domain/font-lato/
