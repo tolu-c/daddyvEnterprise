@@ -1,0 +1,30 @@
+SITEMAP
+domain => www.daddyventerprise.com
+* domain/user-register/
+* domain/confirm-account/
+* domain/user-login/
+* domain/user-profile/
+* domain/user-transactions/detail/
+* domain/settings/edit/
+* domain/change-password/
+* domain/reset-password/
+* domain/data/carrier/
+* domain/data/{carrier-name}/bundle
+* domain/confirm-order/
+* domain/order-success/
+* domain/order-failed/
+* domain/billing-info/
+* domain/payment/
+* domain/page-not-found/
+* domain/work-in-progress/
+* domain/work-in-progress/
+
+FONTS
+* Fira code condensed
+* Lato
+* Raleway
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
