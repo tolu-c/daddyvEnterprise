@@ -1,0 +1,24 @@
+body{
+    font-family: ;
+
+}
+header{
+    background-color: orange;
+    width: inherit;
+    height: 50px;
+}
+#introbackground{
+    width: inherit;
+    height: 200px;
+    background-color: teal;
+    position: absolute;
+}
+#intro{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: larger;
+    position: absolute;
+    left: 300px;
+}
