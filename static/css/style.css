@@ -1,24 +1,25 @@
-body{
-    font-family: ;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
 }
-header{
-    background-color: orange;
-    width: inherit;
-    height: 50px;
+header {
+  background-color: orange;
+  width: inherit;
+  height: 50px;
 }
-#introbackground{
-    width: inherit;
-    height: 200px;
-    background-color: teal;
-    position: absolute;
+#introbackground {
+  width: inherit;
+  height: 200px;
+  background-color: teal;
+  position: absolute;
 }
-#intro{
-    font-family: sans-serif;
-    text-transform: capitalize;
-    font-weight: lighter;
-    letter-spacing: 3px;
-    font-size: larger;
-    position: absolute;
-    left: 300px;
+#intro {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: larger;
+  position: absolute;
+  left: 300px;
 }
