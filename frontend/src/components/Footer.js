@@ -6,9 +6,9 @@ export default class Footer extends Component {
         let currentYear = date.getFullYear()
 
         return (
-            <div className='bg-gray-700 text-center text-sm text-gray-200 py-5'>
+            <footer className='bg-gray-700 text-center text-sm text-gray-200 py-5'>
                 Copyright, DaddyV Enterprise, {currentYear}.
-            </div>
+            </footer>
         )
     }
 }

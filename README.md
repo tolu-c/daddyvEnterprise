@@ -18,8 +18,8 @@ A web app enabling you to purchase data online
 * if it runs successfully, you should see ![the installed worked successfully](./static/images/localhost.png)
 
 ### TODO
-[ ] design cta btn including hover state
-[ ] design heading text
-[ ] set font family
+[x] design cta btn including hover state
+[x] design heading text
+[x] set font family
 [ ] adjust postioning of homepage
 [ ] design signup,login, order-confirmation pages

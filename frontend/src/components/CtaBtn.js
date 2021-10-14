@@ -7,9 +7,10 @@ export default class CtaBtn extends Component {
     return (
       <Link
         to="/billing-info"
-        className="bg-white text-lg text-center px-6 py-3 font-bold content-center border border-red-800 text-red-800 rounded-full hover:bg-red-800 hover:text-white"
+        className="bg-white text-lg text-center font-bold flex space-x-3 w-48 justify-center justify-items-center py-2 px-4 border border-red-800 text-red-800 rounded-full hover:bg-red-800 hover:text-white hover:shadow-xl"
       >
-        Buy Data <ArrowCircleRightIcon className="h-auto w-5 inline text-center justify-center" />
+        <span>Buy Data</span>
+        <ArrowCircleRightIcon className="h-auto w-5 inline-block" />
       </Link>
     );
   }
