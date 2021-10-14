@@ -16,3 +16,10 @@ A web app enabling you to purchase data online
 * migrate your database using `python manage.py migrate`
 * run the server using; `python manage.py runserver`, it'll open at [localhost:8000](http://localhost:8000)
 * if it runs successfully, you should see ![the installed worked successfully](./static/images/localhost.png)
+
+### TODO
+[ ] design cta btn including hover state
+[ ] design heading text
+[ ] set font family
+[ ] adjust postioning of homepage
+[ ] design signup,login, order-confirmation pages

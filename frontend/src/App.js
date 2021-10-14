@@ -1,12 +1,19 @@
-import React, { Component } from 'react'
-import './App.css'
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+
+import "./App.css";
+
+import HomePage from "./Pages/HomePage";
 
 export default class App extends Component {
   render() {
     return (
-      <div className='container bg-gray-200 p-8'>
-        <p className='text-2xl text-red-900 px-4'>daddyv Enterprise</p>
-      </div>
-    )
+      <BrowserRouter>
+        <Route to="/" component={HomePage} exact />
+        {/* <div className="container">
+          <HomePage />
+        </div> */}
+      </BrowserRouter>
+    );
   }
 }
