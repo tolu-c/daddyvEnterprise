@@ -18,7 +18,7 @@ export default class MainBody extends Component {
           </p>
           <CtaBtn />
         </div>
-        <Bro className="absolute top-6 transform rotate-12" />
+        <Bro className="absolute top-1 right-1 w-72 h-auto transform rotate-6" />
         <MainBodyContent/>
       </div>
     );

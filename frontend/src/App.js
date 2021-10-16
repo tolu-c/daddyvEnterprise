@@ -6,6 +6,10 @@ import "./App.css";
 // pages
 import HomePage from "./Pages/HomePage";
 import BillingInfo from "./Pages/BillingInfo";
+import SignUp from "./Pages/SignUp";
+import SignIn from "./Pages/SignIn";
+import ConfirmAccount from "./Pages/ConfirmAccount";
+import ConfirmOrder from "./Pages/ConfirmOrder";
 
 // components
 import Navbar from "./components/Navbar";
@@ -18,6 +22,10 @@ export default class App extends Component {
         <Navbar />
         <Route path="/" component={HomePage} exact />
         <Route path="/billing-info" component={BillingInfo} />
+        <Route path="/sign-up" component={SignUp} />
+        <Route path="/sign-in" component={SignIn} />
+        <Route path="/confirm-order" component={ConfirmOrder} />
+        <Route path="/confirm-account" component={ConfirmAccount} />
         <Footer />
       </Router>
     );
