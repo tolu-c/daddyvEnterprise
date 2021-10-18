@@ -30,7 +30,7 @@ export default class SignUp extends Component {
               className="focus:outline-none focus:placeholder-gray-700 text-gray-600 border border-red-100 border-sm w-full rounded-md px-3 py-1 placeholder-gray-400 mb-4"
               required
             />
-            <button className="w-full justify-center bg-blue-600 text-white rounded-full text-lg font-semi-bold uppercase font-fira py-1 shadow focus:shadow-lg hover:shadow-lg">
+            <button className="w-full justify-center bg-blue-600 text-white rounded-full text-lg font-semibold uppercase font-fira py-1 shadow focus:shadow-lg hover:shadow-lg cursor-pointer">
               Sign up
             </button>
           </form>

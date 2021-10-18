@@ -8,7 +8,7 @@ export default class Navbar extends Component {
     return (
       <nav className="flex bg-red-500 p-4 justify-between">
         <div className="text-white">
-          <Link to="/">
+          <Link to="/" className="cursor-pointer">
             <ChartBarIcon className="text-white h-8 w-8 ml-2" />
           </Link>
         </div>
