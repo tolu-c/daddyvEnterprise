@@ -9,11 +9,13 @@ export default class Navbar extends Component {
       <nav className="flex bg-red-500 p-4 justify-between">
         <div className="text-white">
           <Link to="/" className="cursor-pointer">
-            <ChartBarIcon className="text-white h-8 w-8 ml-2" />
+            <ChartBarIcon className="h-8 w-8 ml-2" />
           </Link>
         </div>
         <div className="text-white">
-          <UserIcon className="text-white h-8 w-8" />
+          <Link to="/sign-up" className="cursor-pointer">
+            <UserIcon className="h-8 w-8" />
+          </Link>
         </div>
       </nav>
     );

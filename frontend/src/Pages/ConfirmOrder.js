@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { ReactComponent as Bro2 } from "../assets/bro-2.svg";
-import {
-  ArrowCircleLeftIcon,
-  ArrowCircleRightIcon,
-} from "@heroicons/react/outline";
+
+import ConOrderBtn from "../components/ConOrderBtn";
 
 export default class ConfirmOrder extends Component {
   render() {
@@ -28,12 +26,7 @@ export default class ConfirmOrder extends Component {
             6Gb - 1 500
           </p>
         </div>
-        <div className="absolute bottom-10 flex space-x-6">
-          <div className="p-2 bg-blue-600 capitalize text-white font-semibold flex rounded-full w-32 cursor-pointer hover:shadow-lg text-center space-x-3 content-center">
-            <ArrowCircleLeftIcon className='h-5 w-5' /> no, back
-          </div>
-          <div>yes</div>
-        </div>
+        <ConOrderBtn />
       </div>
     );
   }
