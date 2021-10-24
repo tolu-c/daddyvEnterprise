@@ -1,13 +1,12 @@
-import React, { Component } from "react";
-
+import React from "react";
 import MainBody from "../components/MainBody";
 
-export default class HomePage extends Component {
-  render() {
-    return (
-      <>
-        <MainBody />
-      </>
-    );
-  }
+function HomePage() {
+  return (
+    <>
+      <MainBody />
+    </>
+  );
 }
+
+export default HomePage;

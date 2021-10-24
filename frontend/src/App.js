@@ -1,5 +1,5 @@
-import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import React from "react";
 
 import "./App.css";
 
@@ -17,21 +17,21 @@ import DataCarrier from "./Pages/DataCarrier";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-export default class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Navbar />
-        <Route path="/" component={HomePage} exact />
-        <Route path="/billing-info" component={BillingInfo} />
-        <Route path="/sign-up" component={SignUp} />
-        <Route path="/sign-in" component={SignIn} />
-        <Route path="/confirm-order" component={ConfirmOrder} />
-        <Route path="/confirm-account" component={ConfirmAccount} />
-        <Route path="/payment" component={PaymentInfo} />
-        <Route path="/data-carrier" component={DataCarrier} />
-        <Footer />
-      </Router>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Route path="/" component={HomePage} exact />
+      <Route path="/billing-info" component={BillingInfo} />
+      <Route path="/sign-up" component={SignUp} />
+      <Route path="/sign-in" component={SignIn} />
+      <Route path="/confirm-order" component={ConfirmOrder} />
+      <Route path="/confirm-account" component={ConfirmAccount} />
+      <Route path="/payment" component={PaymentInfo} />
+      <Route path="/data-carrier" component={DataCarrier} />
+      <Footer />
+    </Router>
+  );
 }
+
+export default App;
