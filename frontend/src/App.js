@@ -12,6 +12,9 @@ import ConfirmAccount from "./Pages/ConfirmAccount";
 import ConfirmOrder from "./Pages/ConfirmOrder";
 import PaymentInfo from "./Pages/PaymentInfo";
 import DataCarrier from "./Pages/DataCarrier";
+import UserDashboard from './Pages/UserDashboard'
+import ResetPassword from './Pages/ResetPassword'
+import ChangePassword from './Pages/ChangePassword'
 
 // components
 import Navbar from "./components/Navbar";
@@ -29,6 +32,9 @@ function App() {
       <Route path="/confirm-account" component={ConfirmAccount} />
       <Route path="/payment" component={PaymentInfo} />
       <Route path="/data-carrier" component={DataCarrier} />
+      <Route path="/dashboard" component={UserDashboard} />
+      <Route path="/change-password" component={ChangePassword} />
+      <Route path="/reset-password" component={ResetPassword} />
       <Footer />
     </Router>
   );

@@ -5,7 +5,7 @@ domain => www.daddyventerprise.com
 * domain/user-login/
 * domain/user-profile/
 * domain/user-transactions/detail/
-* domain/settings/edit/
+* domain/dashboard
 * domain/change-password/
 * domain/reset-password/
 * domain/data/carrier/
